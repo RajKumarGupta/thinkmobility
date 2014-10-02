@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:stretchColumns="1"
+             >
+
+            <TableRow
+                android:id="@+id/tableRowinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffa500"
+                android:gravity="center_horizontal"
+                android:padding="8dip" >
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:fontFamily="serif"
+                    android:text="STUDENT DETAILS"
+                    android:textColor="#ffffff"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <!--
+                 <View
+                android:layout_height="2dip"
+                android:background="#ffa500" />
+            -->
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/counter_text_color"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/textView1_key"
+                    android:text="Name"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/textView1_value"
+                    android:layout_marginLeft="3dp"
+                    android:text=": Raj"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+            <!-- just draw a red line -->
+
+
+            <!--
+                 <View
+                android:layout_height="0.5dip"
+                android:background="#000000" />
+            -->
+
+
+            <!-- 1 column but span 2 cells -->
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/textView2_key"
+                    android:text="Class "
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/textView2_value"
+                    android:layout_marginLeft="3dp"
+                    android:text=": 1"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <!-- just draw a red line -->
+
+
+            <!--
+                 <View
+                android:layout_height="0.5dip"
+                android:background="#000000" />
+            -->
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/counter_text_color"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/textView3_key"
+                    android:text="Roll Number "
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/textView3_value"
+                    android:layout_marginLeft="3dp"
+                    android:text=": 1"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <!--
+                 <View
+                android:layout_height="0.5dip"
+                android:background="#000000" />
+            -->
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/textView4_key"
+                    android:text="Gender"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/textView4_value"
+                    android:layout_marginLeft="3dp"
+                    android:text=": Male"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <!--
+                 <View
+                android:layout_height="0.5dip"
+                android:background="#000000" />
+            -->
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/counter_text_color"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/textView5_key"
+                    android:text="Date Of Birth "
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/textView5_value"
+                    android:layout_marginLeft="3dp"
+                    android:text=": 12/12/2012 12:00:00 AM"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <!--
+                 <View
+                android:layout_height="0.5dip"
+                android:background="#000000" />-->
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/textView6_key"
+                    android:text="Address "
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/textView6_value"
+                    android:layout_marginLeft="3dp"
+                    android:text=": Def,ABC,Bihar,Indiapin - 123456"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <!--
+                 <View
+                android:layout_height="0.5dip"
+                android:background="#000000" /> -->
+
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/counter_text_color"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/textView7_key"
+                    android:text="Phone "
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/textView7_value"
+                    android:layout_marginLeft="3dp"
+                    android:text=": 123456"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <!--
+                 <View
+                android:layout_height="0.5dip"
+                android:background="#000000" />
+            -->
+
+            <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/textView8_key"
+                    android:text="Mobile "
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/textView8_value"
+                    android:layout_marginLeft="3dp"
+                    android:text=": 123456"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <!--
+                 <View
+                android:layout_height="0.5dip"
+                android:background="#000000" />
+            -->
+
+            <TableRow
+                android:id="@+id/tableRow9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/counter_text_color"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/textView9_key"
+                    android:text="Email "
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/textView9_value"
+                    android:layout_marginLeft="3dp"
+                    android:text=": abcd@qwel.com"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+            
+                    </TableLayout>
+    </HorizontalScrollView>
+
+</ScrollView>
+
